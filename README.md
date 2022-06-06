@@ -41,7 +41,18 @@ The number of traffic sign and traffic light instances present in each superclas
 
 ## Evaluation
 
-To be updated.
+The evaluation script requires the following dependencies to be installed with Python 3.
+
+```bash
+pip install argparse shapely tabulate
+```
+
+The class-wise and overall results can be obtained by running the provided python script as follows. *<gt_dir>* should
+contain the ground truth xml files and *<pred_dir>* should contain the prediciton xml files following the same format as per the ground truth.
+
+```bash
+python eval.py --gt_dir=<gt_dir> --pred_dir=<pred_dir>
+```
 
 ## Citation
 
