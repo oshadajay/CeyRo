@@ -25,7 +25,8 @@ The traffic sign and traffic light annotations are provided as bounding boxes in
 
 ## Statistics
 
-The number of traffic sign and traffic light instances present in each superclass is listed in the below table.
+The number of traffic sign and traffic light instances present in each superclass is listed in the below table. 
+For detailed information please refer this [sheet](https://docs.google.com/spreadsheets/d/1O4QDAbFMGxGqiKsq4vvGzd9dh_86LVy3/). 
 
 | Superclass | Train | Test | Total |
 |----------|:------------------:|:-----------------:|:----------------------:|
